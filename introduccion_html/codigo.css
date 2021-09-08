@@ -1,0 +1,32 @@
+.negrilla{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.contPadre{
+    background-color: rgba(172, 216, 153, 0.918);
+    width: 100%;
+    height: 40vh;
+}
+
+#ciclo1{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#ciclo12{
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#contImg{
+    width: 20%;
+    height: 100%;
+    float: right;
+}
