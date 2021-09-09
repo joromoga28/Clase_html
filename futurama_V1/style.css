@@ -79,11 +79,13 @@ body {
 /************ Estilo para el cuerpo **********/
 
 #cuerpo {
-    background-color: yellowgreen;
     padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .imgPersonaje {
     width: 100%;
     height: 250px;
+    /** object-fit: contain; opcion para distribuir imagen **/
 }
