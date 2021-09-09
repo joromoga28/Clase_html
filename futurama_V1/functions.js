@@ -56,11 +56,11 @@ async function cargarPersonajes() {
         let personaje = "<div class='card personajeFuturama' style='width: 18rem;'>";
         personaje += "<img id='imgFuturama' src='" + element.PicUrl + "' class='card-img-top imgPersonaje' alt='imagen1'>";
         personaje += "<div class='card-body'>";
-        personaje += "<h5 class='card-title'> '" + element.Name + "'</h5>";
-        personaje += "<label>Profesión: --</label>" + element.Profession + "<br>";
-        personaje += "<label>Especie: --</label> " + element.Species;
+        personaje += "<h5 class='card-title'>" + element.Name + "</h5>";
+        personaje += "<label class='negrilla'>Profesión:</label><span class='infoPersonaje'>" + element.Profession + "</span><br>";
+        personaje += "<label class='negrilla'>Especie:</label><span class='infoPersonaje'>" + element.Species + "</span>";
         personaje += "<br>";
-        personaje += "<label>Planeta: --</label>" + element.Planet + "<br>";
+        personaje += "<label class='negrilla'>Planeta:</label><span class='infoPersonaje'>" + element.Planet + "</span><br>";
         personaje += "<button type='button' class='btn btn-outline-danger' onclick='eliminar()'>Eliminar</button>";
         personaje += "&nbsp;<button type='button' class='btn btn-outline-primary' onclick='editar()'>Editar</button>";
         personaje += "</div>";

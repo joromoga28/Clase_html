@@ -89,3 +89,15 @@ body {
     height: 250px;
     /** object-fit: contain; opcion para distribuir imagen **/
 }
+
+.personajeFuturama {
+    margin-bottom: 30px;
+}
+
+.negrilla {
+    font-weight: bold;
+}
+
+.infoPersonaje {
+    font-size: 0.85rem;
+}
